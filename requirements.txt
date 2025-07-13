@@ -1,0 +1,15 @@
+# requirements.txt
+
+python-dotenv
+requests
+telethon
+pandas
+sqlalchemy
+psycopg2-binary
+fastapi
+uvicorn
+dbt-core
+dbt-postgres
+opencv-python
+torch
+Pillow
