@@ -1,0 +1,30 @@
+[0m22:35:20.548484 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019EAEEF3A10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019EABEBDBD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019EAFEEBC50>]}
+
+
+============================== 22:35:20.570023 | ffcbf9b8-cb8e-4c72-b5a5-2f81c99788dc ==============================
+[0m22:35:20.570023 [info ] [MainThread]: Running with dbt=1.10.4
+[0m22:35:20.571658 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Amenzz\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init medical_dbt', 'send_anonymous_usage_stats': 'True'}
+[0m22:35:20.893849 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\Amenzz\.dbt
+[0m22:35:20.907715 [debug] [MainThread]: Starter project path: C:\Users\Amenzz\Desktop\week-7\.venv\Lib\site-packages\dbt\include\starter_project
+[0m22:35:20.950949 [info ] [MainThread]: 
+Your new dbt project "medical_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:35:20.952075 [info ] [MainThread]: Setting up your profile.
+[0m22:40:55.923086 [info ] [MainThread]: Profile medical_dbt written to C:\Users\Amenzz\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:40:55.928471 [debug] [MainThread]: Command `dbt init` succeeded at 22:40:55.927823 after 335.66 seconds
+[0m22:40:55.930158 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019EAFFAAC40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019EB106E570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019EAFD23CE0>]}
+[0m22:40:55.931975 [debug] [MainThread]: Flushing usage events
+[0m22:40:57.071013 [debug] [MainThread]: An error was encountered while trying to flush usage events

@@ -1,0 +1,11 @@
+medical_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: etl_user
+      password: etl_pass
+      dbname: etl_db
+      schema: analytics
+      port: 5432
